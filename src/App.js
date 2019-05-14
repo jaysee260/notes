@@ -2,12 +2,7 @@ import React, { Component } from 'react';
 import Note from "./Note";
 
 class App extends Component {
-
   state = {  }
-
-  handleValueChange(e) {
-    this.setState({ [e.target.id]: e.target.value });
-  }
 
   render() {
     return (
